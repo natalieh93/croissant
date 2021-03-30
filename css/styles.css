@@ -1,11 +1,13 @@
 body {
-  background-color: rgb(36, 135, 160);
+  background-color: rgb(51, 10, 29);
   color: white;
   font-family: monospace;
 }
 
 h1 {
+  font-size: 28px;
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 h1,
@@ -15,20 +17,25 @@ p {
 
 p {
   font-size: 15px;
-  margin: 20px 80px;
+  line-height: 1.5;
+  margin: 20px 90px;
 }
 
 footer {
   display: block;
   font-size: 15px;
-  margin: 20px;
+  margin: 13px;
   text-align: center;
 }
 
-footer a,
+footer a {
+  color: rgb(212, 151, 151);
+  margin: 0 34px;
+  text-decoration: none;
+}
+
 .email {
-  color: rgb(0, 42, 231);
-  margin: 0 10px;
+  color: rgb(212, 151, 151);
   text-decoration: none;
 }
 
@@ -42,11 +49,17 @@ footer a:hover,
   margin-top: 100px;
 }
 
+.photo-heading {
+  margin-top: 18px;
+}
 .croissant-photo {
-  border-radius: 20px;
+  background: white;
+  border: 1px solid white;
+  padding: 12px;
+  border-radius: 2px;
   display: block;
-  margin: 5px auto;
-  max-width: 100%;
+  margin: 3px auto;
+  max-width: 80%;
 }
 
 .main-footer,
