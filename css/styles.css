@@ -50,7 +50,8 @@ footer a:hover,
 }
 
 .photo-heading {
-  margin-top: 18px;
+  margin-top: 50px;
+  font-size: 25px;
 }
 .croissant-photo {
   background: white;
@@ -58,8 +59,8 @@ footer a:hover,
   padding: 12px;
   border-radius: 2px;
   display: block;
-  margin: 3px auto;
-  max-width: 80%;
+  margin: 30px auto;
+  max-width: 90%;
 }
 
 .main-footer,
